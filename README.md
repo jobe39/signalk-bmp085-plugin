@@ -4,12 +4,12 @@ A SignalK node server plugin that reads temperature and barometric pressure data
 
 ## Installation
 
-This plugin requires the `bmp085` NPM package to communicate with the hardware sensor.
+This plugin requires the `bmp180-sensor` NPM package to communicate with the hardware sensor.
 
 To install the required dependency, run the following command in the plugin directory:
 
 ```bash
-npm install bmp085
+npm install bmp180-sensor
 ```
 
 > **Note:** You must have I2C enabled on your Raspberry Pi.
